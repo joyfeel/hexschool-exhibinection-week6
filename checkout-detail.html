@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Checkout Detail Page</title>
+
+		<link rel="stylesheet" href="./assets/style/all.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!-- Header Navbar -->
+		<nav class="position-md-relative navbar navbar-expand-lg navbar-light py-md-5 border-bottom">
+			<div class="container">
+				<!-- hamburgur -->
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- logo -->
+				<a href="/" class="navbar-brand position-lg-absolute top-50 start-50 translate-lg-middle text-secondary">EXHIBINECTION</a>
+
+				<!-- cart -->
+				<a class="position-relative order-md-1" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+					<span class="material-icons text-black"> confirmation_number </span>
+					<span class="position-absolute translate-middle bg-primary badge rounded-pill"
+						>3
+						<span class="visually-hidden">cart items</span>
+					</span>
+				</a>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-md-0 w-100 d-flex justify-content-md-end">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Sign in</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Sign up</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- offcanvas -->
+			<div
+				class="offcanvas offcanvas-end offcanvas-header-position px-2 px-md-7 py-5 bg-black text-white"
+				data-bs-scroll="false"
+				data-bs-backdrop="true"
+				tabindex="-1"
+				id="offcanvasExample"
+				aria-labelledby="offcanvasExampleLabel"
+			>
+				<div class="offcanvas-header p-0 mb-2">
+					<h5 class="offcanvas-title" id="offcanvasExampleLabel">Cart List</h5>
+					<!-- <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+				</div>
+				<div class="offcanvas-body p-0 pe-1  pe-md-4">
+					<ul class="list-unstyled d-flex flex-column mb-0 gap-3">
+						<li class="pt-6 px-3 px-md-4 py-5 bg-white d-flex text-black justify-content-between">
+							<img
+								class="object-cover"
+								src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+								alt=""
+							/>
+							<div class="d-flex flex-column justify-content-between">
+								<div class="fw-bold">2020 台味設計展</div>
+								<div class="font-roboto">01 JUN — 31 OCT</div>
+								<div>全票</div>
+								<div class="font-roboto fw-bold fs-5">NT$350</div>
+							</div>
+							<div class="d-flex flex-column justify-content-center align-items-center flex-md-row">
+								<span class="material-icons-outlined"> remove </span> <span class="font-roboto fs-5 fw-bold mx-3">01</span
+								><span class="material-icons-outlined"> add </span>
+							</div>
+						</li>
+
+						<li class="pt-6 px-2 px-md-4 py-5 bg-white d-flex text-black justify-content-between">
+							<img
+								class="object-cover"
+								src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+								alt=""
+							/>
+							<div class="d-flex flex-column justify-content-between">
+								<div class="fw-bold">2020 台味設計展</div>
+								<div class="font-roboto">01 JUN — 31 OCT</div>
+								<div>全票</div>
+								<div class="font-roboto fw-bold fs-5">NT$350</div>
+							</div>
+							<div class="d-flex flex-column justify-content-center align-items-center flex-md-row">
+								<span class="material-icons-outlined"> remove </span> <span class="font-roboto fs-5 fw-bold mx-3">01</span
+								><span class="material-icons-outlined"> add </span>
+							</div>
+						</li>
+
+						<li class="pt-6 px-2 px-md-4 py-5 bg-white d-flex text-black justify-content-between">
+							<img
+								class="object-cover"
+								src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+								alt=""
+							/>
+							<div class="d-flex flex-column justify-content-between">
+								<div class="fw-bold">2020 台味設計展</div>
+								<div class="font-roboto">01 JUN — 31 OCT</div>
+								<div>全票</div>
+								<div class="font-roboto fw-bold fs-5">NT$350</div>
+							</div>
+							<div class="d-flex flex-column justify-content-center align-items-center flex-md-row">
+								<span class="material-icons-outlined"> remove </span> <span class="font-roboto fs-5 fw-bold mx-3">01</span
+								><span class="material-icons-outlined"> add </span>
+							</div>
+						</li>
+
+						<li class="pt-6 px-2 px-md-4 py-5 bg-white d-flex text-black justify-content-between">
+							<img
+								class="object-cover"
+								src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+								alt=""
+							/>
+							<div class="d-flex flex-column justify-content-between">
+								<div class="fw-bold">2020 台味設計展</div>
+								<div class="font-roboto">01 JUN — 31 OCT</div>
+								<div>全票</div>
+								<div class="font-roboto fw-bold fs-5">NT$350</div>
+							</div>
+							<div class="d-flex flex-column justify-content-center align-items-center flex-md-row">
+								<span class="material-icons-outlined"> remove </span> <span class="font-roboto fs-5 fw-bold mx-3">01</span
+								><span class="material-icons-outlined"> add </span>
+							</div>
+						</li>
+
+						<li class="pt-6 px-2 px-md-4 py-5 bg-white d-flex text-black justify-content-between">
+							<img
+								class="object-cover"
+								src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+								alt=""
+							/>
+							<div class="d-flex flex-column justify-content-between">
+								<div class="fw-bold">2020 台味設計展</div>
+								<div class="font-roboto">01 JUN — 31 OCT</div>
+								<div>全票</div>
+								<div class="font-roboto fw-bold fs-5">NT$350</div>
+							</div>
+							<div class="d-flex flex-column justify-content-center align-items-center flex-md-row">
+								<span class="material-icons-outlined"> remove </span> <span class="font-roboto fs-5 fw-bold mx-3">01</span
+								><span class="material-icons-outlined"> add </span>
+							</div>
+						</li>
+
+						<li class="pt-6 px-2 px-md-4 py-5 bg-white d-flex text-black justify-content-between">
+							<img
+								class="object-cover"
+								src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+								alt=""
+							/>
+							<div class="d-flex flex-column justify-content-between">
+								<div class="fw-bold">2020 台味設計展</div>
+								<div class="font-roboto">01 JUN — 31 OCT</div>
+								<div>全票</div>
+								<div class="font-roboto fw-bold fs-5">NT$350</div>
+							</div>
+							<div class="d-flex flex-column justify-content-center align-items-center flex-md-row">
+								<span class="material-icons-outlined"> remove </span> <span class="font-roboto fs-5 fw-bold mx-3">01</span
+								><span class="material-icons-outlined"> add </span>
+							</div>
+						</li>
+				</div>
+
+				<div class="offcanvas-footer d-flex justify-content-between align-items-center mt-4">
+					<div>小計 <span class=" ms-4">NT$1050</span></div>
+					<a class="btn btn-outline-light-gray" href="/checkout-order.html">前往結帳</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Banner -->
+		
+
+		<!-- Nav Scroller -->
+		
+
+		<!-- content -->
+		
+<main>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-8">
+				<div class="row timeline__section mx-0 my-5 g-0">
+					<div class="col-3">
+						<div class="timeline__pointer timeline__pointer--active">
+							<p class="mt-2 mb-0 fw-light fs-7">確認訂單</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="timeline__pointer timeline__pointer--active">
+							<p class="mt-2 mb-0 fs-7">填寫訂購資訊</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="timeline__pointer">
+							<p class="mt-2 mb-0 fw-light fs-7">填寫付款資訊</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="timeline__pointer">
+							<p class="mt-2 mb-0 fw-light fs-7">完成訂購</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 order-md-2">
+				<form>
+					<h3 class="fs-5 fw-bold mb-4">訂購人資訊</h3>
+					<div class="mb-5">
+						<label for="email" class="form-label font-roboto">Email</label>
+						<input type="email" class="form-control" placeholder="example@gmail.com" id="email" />
+					</div>
+					<div class="mb-5">
+						<label for="password" class="form-label font-roboto">姓名</label>
+						<input type="password" class="form-control" placeholder="請輸入名字" id="password" />
+					</div>
+
+					<div class="mb-5">
+						<label for="phone" class="form-label font-roboto">聯絡電話</label>
+						<input type="tel" class="form-control" placeholder="請輸入電話" id="phone" />
+					</div>
+
+					<div class="mb-5">
+						<label for="coupon" class="form-label font-roboto">優惠碼</label>
+						<input type="email" class="form-control" placeholder="TG87526" id="coupon" />
+						<div id="emailHelp" class="form-text text-end">優惠碼已生效</div>
+					</div>
+				</form>
+				<div>
+					<div class="d-flex justify-content-between mb-2">
+						<div>小計</div>
+						<div class="font-roboto fw-light">NT$1050</div>
+					</div>
+
+					<div class="d-flex justify-content-between mb-2">
+						<div>折扣</div>
+						<div class="font-roboto fw-light">-NT$50</div>
+					</div>
+					<div class="d-flex justify-content-between mb-2 fs-5">
+						<div class="">總金額</div>
+						<div class="font-roboto">NT$1000</div>
+					</div>
+				</div>
+			</div>
+
+			<ul class="col-12 col-md-8 list-unstyled d-flex flex-column gap-4 order-md-1">
+				<li class="row">
+					<div class="col-6 col-md-3">
+						<img
+							class="object-cover w-100"
+							src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+							alt=""
+							style="height: 84px"
+						/>
+					</div>
+
+					<div class="col-6 col-md-3 d-flex flex-column justify-content-between">
+						<div class="fw-bold">
+							2020 台味設計展
+
+							<span class="d-md-none">X</span>
+						</div>
+						<div class="font-roboto">01 JUN — 31 OCT</div>
+						<div class="d-flex justify-content-between align-items-center">
+							<div>全票 <span class="font-roboto fw-bold fs-5 d-md-none">1</span></div>
+							<div class="font-roboto fw-bold d-md-none">NT$350</div>
+						</div>
+					</div>
+
+					<div class="d-none d-md-flex col-md-6 justify-content-between align-items-center">
+						<div class="font-roboto fs-5">NT$350</div>
+
+						<div class="d-flex align-items-center">
+							<span class="font-roboto fs-5 fw-bold mx-3">1</span>
+						</div>
+					</div>
+				</li>
+				<li class="row">
+					<div class="col-6 col-md-3">
+						<img
+							class="object-cover w-100"
+							src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/michel-catalisano--a0D9LpcKV8-unsplash.jpg?raw=true"
+							alt=""
+							style="height: 84px"
+						/>
+					</div>
+
+					<div class="col-6 col-md-3 d-flex flex-column justify-content-between">
+						<div class="fw-bold">
+							No.22 線上設計展
+
+							<span class="d-md-none">X</span>
+						</div>
+						<div class="font-roboto">01 JUN — 31 OCT</div>
+						<div class="d-flex justify-content-between align-items-center">
+							<div>全票 <span class="font-roboto fw-bold fs-5 d-md-none">1</span></div>
+							<div class="font-roboto fw-bold d-md-none">NT$350</div>
+						</div>
+					</div>
+
+					<div class="d-none d-md-flex col-md-6 justify-content-between align-items-center">
+						<div class="font-roboto fs-5">NT$350</div>
+
+						<div class="d-flex align-items-center">
+							<span class="font-roboto fs-5 fw-bold mx-3">1</span>
+						</div>
+					</div>
+				</li>
+				<li class="row">
+					<div class="col-6 col-md-3">
+						<img
+							class="object-cover w-100"
+							src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/moralis-tsai-8xsktFRw28I-unsplash.jpg?raw=true"
+							alt=""
+							style="height: 84px"
+						/>
+					</div>
+
+					<div class="col-6 col-md-3 d-flex flex-column justify-content-between">
+						<div class="fw-bold">
+							高雄設計節
+
+							<span class="d-md-none">X</span>
+						</div>
+						<div class="font-roboto">01 JUN — 31 OCT</div>
+						<div class="d-flex justify-content-between align-items-center">
+							<div>全票 <span class="font-roboto fw-bold fs-5 d-md-none">1</span></div>
+							<div class="font-roboto fw-bold d-md-none">NT$350</div>
+						</div>
+					</div>
+
+					<div class="d-none d-md-flex col-md-6 justify-content-between align-items-center">
+						<div class="font-roboto fs-5">NT$350</div>
+
+						<div class="d-flex align-items-center">
+							<span class="font-roboto fs-5 fw-bold mx-3">1</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<div class="row mt-3 mb-6">
+			<div class="col-6 col-md-2">
+				<a class="btn btn-outline-primary d-block" href="/checkout-order.html" role="button">返回</a>
+			</div>
+			<div class="col-6 offset-md-6 col-md-4">
+				<a class="btn btn-primary d-block" href="/checkout-payment.html" role="button">下一步</a>
+			</div>
+		</div>
+	</div>
+</main>
+
+
+		<!-- You may also like... -->
+		
+
+		<!-- Jumbotron -->
+		
+
+		<!-- footer -->
+		
+
+		<script src="./assets/js/vendors.js"></script>
+		<script src="./assets/js/all.js"></script>
+	</body>
+</html>

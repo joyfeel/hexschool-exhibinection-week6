@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Product Page</title>
+
+		<link rel="stylesheet" href="./assets/style/all.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!-- Header Navbar -->
+		<nav class="position-md-relative navbar navbar-expand-lg navbar-light py-md-5 border-bottom">
+			<div class="container">
+				<!-- hamburgur -->
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- logo -->
+				<a href="/" class="navbar-brand position-lg-absolute top-50 start-50 translate-lg-middle text-secondary">EXHIBINECTION</a>
+
+				<!-- cart -->
+				<a class="position-relative order-md-1" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+					<span class="material-icons text-black"> confirmation_number </span>
+					<span class="position-absolute translate-middle bg-primary badge rounded-pill"
+						>3
+						<span class="visually-hidden">cart items</span>
+					</span>
+				</a>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-md-0 w-100 d-flex justify-content-md-end">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Sign in</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Sign up</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- offcanvas -->
+			<div
+				class="offcanvas offcanvas-end offcanvas-header-position px-2 px-md-7 py-5 bg-black text-white"
+				data-bs-scroll="false"
+				data-bs-backdrop="true"
+				tabindex="-1"
+				id="offcanvasExample"
+				aria-labelledby="offcanvasExampleLabel"
+			>
+				<div class="offcanvas-header p-0 mb-2">
+					<h5 class="offcanvas-title" id="offcanvasExampleLabel">Cart List</h5>
+					<!-- <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+				</div>
+				<div class="offcanvas-body p-0 pe-1  pe-md-4">
+					<ul class="list-unstyled d-flex flex-column mb-0 gap-3">
+						<li class="pt-6 px-3 px-md-4 py-5 bg-white d-flex text-black justify-content-between">
+							<img
+								class="object-cover"
+								src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+								alt=""
+							/>
+							<div class="d-flex flex-column justify-content-between">
+								<div class="fw-bold">2020 台味設計展</div>
+								<div class="font-roboto">01 JUN — 31 OCT</div>
+								<div>全票</div>
+								<div class="font-roboto fw-bold fs-5">NT$350</div>
+							</div>
+							<div class="d-flex flex-column justify-content-center align-items-center flex-md-row">
+								<span class="material-icons-outlined"> remove </span> <span class="font-roboto fs-5 fw-bold mx-3">01</span
+								><span class="material-icons-outlined"> add </span>
+							</div>
+						</li>
+
+						<li class="pt-6 px-2 px-md-4 py-5 bg-white d-flex text-black justify-content-between">
+							<img
+								class="object-cover"
+								src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+								alt=""
+							/>
+							<div class="d-flex flex-column justify-content-between">
+								<div class="fw-bold">2020 台味設計展</div>
+								<div class="font-roboto">01 JUN — 31 OCT</div>
+								<div>全票</div>
+								<div class="font-roboto fw-bold fs-5">NT$350</div>
+							</div>
+							<div class="d-flex flex-column justify-content-center align-items-center flex-md-row">
+								<span class="material-icons-outlined"> remove </span> <span class="font-roboto fs-5 fw-bold mx-3">01</span
+								><span class="material-icons-outlined"> add </span>
+							</div>
+						</li>
+
+						<li class="pt-6 px-2 px-md-4 py-5 bg-white d-flex text-black justify-content-between">
+							<img
+								class="object-cover"
+								src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+								alt=""
+							/>
+							<div class="d-flex flex-column justify-content-between">
+								<div class="fw-bold">2020 台味設計展</div>
+								<div class="font-roboto">01 JUN — 31 OCT</div>
+								<div>全票</div>
+								<div class="font-roboto fw-bold fs-5">NT$350</div>
+							</div>
+							<div class="d-flex flex-column justify-content-center align-items-center flex-md-row">
+								<span class="material-icons-outlined"> remove </span> <span class="font-roboto fs-5 fw-bold mx-3">01</span
+								><span class="material-icons-outlined"> add </span>
+							</div>
+						</li>
+
+						<li class="pt-6 px-2 px-md-4 py-5 bg-white d-flex text-black justify-content-between">
+							<img
+								class="object-cover"
+								src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+								alt=""
+							/>
+							<div class="d-flex flex-column justify-content-between">
+								<div class="fw-bold">2020 台味設計展</div>
+								<div class="font-roboto">01 JUN — 31 OCT</div>
+								<div>全票</div>
+								<div class="font-roboto fw-bold fs-5">NT$350</div>
+							</div>
+							<div class="d-flex flex-column justify-content-center align-items-center flex-md-row">
+								<span class="material-icons-outlined"> remove </span> <span class="font-roboto fs-5 fw-bold mx-3">01</span
+								><span class="material-icons-outlined"> add </span>
+							</div>
+						</li>
+
+						<li class="pt-6 px-2 px-md-4 py-5 bg-white d-flex text-black justify-content-between">
+							<img
+								class="object-cover"
+								src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+								alt=""
+							/>
+							<div class="d-flex flex-column justify-content-between">
+								<div class="fw-bold">2020 台味設計展</div>
+								<div class="font-roboto">01 JUN — 31 OCT</div>
+								<div>全票</div>
+								<div class="font-roboto fw-bold fs-5">NT$350</div>
+							</div>
+							<div class="d-flex flex-column justify-content-center align-items-center flex-md-row">
+								<span class="material-icons-outlined"> remove </span> <span class="font-roboto fs-5 fw-bold mx-3">01</span
+								><span class="material-icons-outlined"> add </span>
+							</div>
+						</li>
+
+						<li class="pt-6 px-2 px-md-4 py-5 bg-white d-flex text-black justify-content-between">
+							<img
+								class="object-cover"
+								src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+								alt=""
+							/>
+							<div class="d-flex flex-column justify-content-between">
+								<div class="fw-bold">2020 台味設計展</div>
+								<div class="font-roboto">01 JUN — 31 OCT</div>
+								<div>全票</div>
+								<div class="font-roboto fw-bold fs-5">NT$350</div>
+							</div>
+							<div class="d-flex flex-column justify-content-center align-items-center flex-md-row">
+								<span class="material-icons-outlined"> remove </span> <span class="font-roboto fs-5 fw-bold mx-3">01</span
+								><span class="material-icons-outlined"> add </span>
+							</div>
+						</li>
+				</div>
+
+				<div class="offcanvas-footer d-flex justify-content-between align-items-center mt-4">
+					<div>小計 <span class=" ms-4">NT$1050</span></div>
+					<a class="btn btn-outline-light-gray" href="/checkout-order.html">前往結帳</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Banner -->
+		
+
+		<!-- Nav Scroller -->
+		 <div class="nav-scroller hide-scrollbar">
+	<nav class="container nav justify-content-md-center" aria-label="Secondary navigation">
+		<a class="nav-link" aria-current="page" href="/product.html">音樂</a>
+		<a class="nav-link" href="/product.html">戲劇</a>
+		<a class="nav-link active" href="/product.html">設計</a>
+		<a class="nav-link" href="/product.html">藝術</a>
+		<a class="nav-link" href="/product.html">美食</a>
+		<a class="nav-link" href="/product.html">旅遊</a>
+		<a class="nav-link" href="/product.html">電影</a>
+		<a class="nav-link" href="/product.html">親子</a>
+		<a class="nav-link" href="/product.html">期間限定</a>
+	</nav>
+</div>
+ 
+
+		<!-- content -->
+		
+<main>
+	<section class="container mt-14 mb-9">
+		<div class="row">
+			<div class="col-12 col-md-6">
+				<div class="card">
+					<img
+						src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+						class="card-img-top img-fluid object-cover"
+						alt="2020 台味設計展"
+						style="min-height: 256px"
+					/>
+				</div>
+				<div class="card-body px-0">
+					<div class="d-flex justify-content-between align-items-center">
+						<h5 class="card-title d-flex">
+							2020 台味設計展
+							<img
+								class="ms-2"
+								src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/facebook-24px.svg"
+							/>
+						</h5>
+						<div class="d-md-none font-roboto fw-medium">01 JUN — 31 OCT</div>
+					</div>
+					<p class="card-text font-robotot">
+						一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。
+					</p>
+				</div>
+			</div>
+
+			<div class="col-12 col-md-6">
+				<div class="">
+					<div class="row text-center" style="height: 256px">
+						<div class="col-12 col-md-6 mb-7 mb-md-0">
+							<div class="d-flex justify-content-center align-items-center mb-5">
+								<span class="material-icons-outlined"> remove </span>
+								<span class="font-roboto fs-1 fw-bold mx-7">01</span><span class="material-icons-outlined"> add </span>
+							</div>
+							<div>張</div>
+						</div>
+						<div class="col-12 col-md-6">
+							<div class="font-roboto fs-1 fw-bold mx-7 mb-5 mx-md-auto">NT$350</div>
+							<div class="mb-5">票種</div>
+							<ul class="list-unstyled d-flex justify-content-center gap-4 mb-7">
+								<li>學生</li>
+								<li>全票</li>
+								<li>愛心</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-6">
+							<button class="btn btn-outline-primary w-100" type="button">收藏展覽</button>
+						</div>
+						<div class="col-6">
+							<button class="btn btn-primary w-100" type="button">購買票券</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="container mb-5">
+		<div class="row">
+			<div class="col-12 col-md-8 order-md-3">
+				<h2 class="mb-1">藝饗宴</h2>
+				<h3 class="mb-2">​Celebration of Style and Art</h3>
+				<p class="fw-light mb-5">
+					匯集美、日、臺等地的藝術家與時尚設計師的作品。以跨界跨域的潮流文化為軸心，結合街頭塗鴉、時尚文化、名牌符號等，藉由各自特殊的表現語彙，傳達對社會當下流行文化的自我反嘲。然而這些深受大眾喜愛的藝術家，也讓「時尚」的概念不再扁平單一，相反的，他們展現了對社會更具魅力的反思，也提出了對於潮文化的自我觀點。
+				</p>
+				<p class="fw-light">
+					從臺灣前輩藝術家林淵、國際知名的超扁平藝術家村上隆、臺灣彩繪雕塑家洪易、以及當代新玩具雕塑代表Kaws
+					等，都受到許多收藏家的喜愛，同時也是當代藝術史上重要的一員。在這個展區，向藏家借展的作品都是一時之選，也反映出街頭藝術發展的某一種共性。另外，在與時尚跨界的藝術表現上，有永遠嘲諷時尚卻很時尚的藝術家Death
+					NYC、臺灣新銳服裝設計師吳日云、尋找鎂光燈背後那真實藝術家身分的郭彥甫、年輕雕塑家賴冠仲、橫跨藝術與時尚設計師雙重身分的雙人組陳薇與李崇德、創造出療癒角色俊寶Zunbo
+					的韓國設計團隊Sakubo，以及日本藝術家喜久田尚美、南館麻美子等。展區透過空間的裝置與時尚語彙，完美詮釋了藝術、設計與潮流文化的多元樣貌。
+				</p>
+			</div>
+
+			<div class="col-12 order-md-1 mb-4">
+				<img
+					class="w-100"
+					src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/max-van-den-oetelaar-IMYe9uYN27E-unsplash.jpg?raw=true"
+					style="height: 400px"
+					alt=""
+				/>
+			</div>
+
+			<div class="col-12 col-md-4 order-md-2">
+				<img
+					src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/ricardo-gomez-angel-j5gCOKZdm6I-unsplash.jpg?raw=true"
+					style="height: 559px"
+					alt=""
+				/>
+			</div>
+		</div>
+	</section>
+</main>
+
+
+		<!-- You may also like... -->
+		
+
+		<!-- Jumbotron -->
+		 <div
+	class="jumbotron-img d-flex"
+	style="
+		background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true');
+	"
+>
+	<div class="container align-self-end text-white">
+		<div class="row">
+			<div class="col-12 mb-5 mb-md-2">
+				<div class="fs-4 fs-md-2 fw-bold">
+					想收到最新消息嗎？ <br />
+					快訂閱我們！
+				</div>
+			</div>
+			<div class="col-12 col-md-4 mb-7">
+				<div class="input-group">
+					<input type="email" class="form-control" placeholder="輸入您的電子信箱" aria-label="輸入您的電子信箱" />
+					<button class="btn btn-primary px-9 py-3" type="button">訂閱</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+
+		<!-- footer -->
+		 <footer>
+	<div class="container d-flex justify-content-md-between align-items-center py-6">
+		<div class="d-flex flex-column flex-md-row align-items-md-center">
+			<h3>EXHIBINECTION</h3>
+			<p class="m-0 ms-md-4">© 2020. All Rights Reserved.</p>
+		</div>
+
+		<ul class="nav d-none d-md-flex">
+			<li class="nav-item"><a class="nav-link" href="#">Sign in</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Sign up</a></li>
+		</ul>
+	</div>
+</footer>
+ 
+
+		<script src="./assets/js/vendors.js"></script>
+		<script src="./assets/js/all.js"></script>
+	</body>
+</html>
