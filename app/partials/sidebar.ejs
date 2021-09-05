@@ -1,0 +1,53 @@
+<aside class="sidebar d-flex flex-column justify-content-between bg-light">
+	<!-- Nav -->
+	<nav class="nav flex-column gap-2">
+		<!-- Logo -->
+		<h1 class="mt-7 my-2 ms-7">
+			<a href="/index.html" title="ANSWER" class="d-flex">
+				<img
+					src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/e14818f156111b5b0a00492903c1552d319ec9c5/week5/logo-ANSWER.svg"
+					alt="ANSWER"
+				/>
+			</a>
+		</h1>
+
+		<!-- <a class="nav-link active" aria-current="page" href="#">Active</a> -->
+		<a class="nav-link d-flex align-items-center ps-7" href="#">
+			<span class="material-icons me-3">insert_chart</span>
+			Dashboard
+		</a>
+		<a class="nav-link d-flex align-items-center ps-7" href="#">
+			<span class="material-icons me-3">question_answer</span>
+			Question
+		</a>
+		<a class="nav-link <%= current === 'assignment' && 'active' %> d-flex align-items-center ps-7" href="./index.html">
+			<span class="material-icons me-3">assignment</span>
+			Assignment
+		</a>
+		<a class="nav-link d-flex align-items-center ps-7" href="#">
+			<span class="material-icons me-3">video_library</span>
+			Course
+		</a>
+		<a class="nav-link <%= current === 'admin' && 'active' %> d-flex align-items-center ps-7" href="./admin.html">
+			<span class="material-icons me-3">people</span>
+			Admin
+		</a>
+		<a class="nav-link d-flex align-items-center ps-7" href="#">
+			<span class="material-icons me-3">settings</span>
+			Settings
+		</a>
+	</nav>
+
+	<!-- User Profile -->
+	<div class="d-flex align-items-center mb-7 ms-7 gap-2">
+		<img
+			class="sidebar__avatar rounded-circle"
+			src="https://images.unsplash.com/photo-1514794749374-fb67509dbb7f?ixlib=rb-1.2.1&ixid=eyjhchbfawqiojeymdd9&auto=format&fit=crop&w=40&h=40&q=80"
+			alt=""
+		/>
+		<div class="d-flex flex-column gap-1">
+			<h3 class="text-dark fs-6">Andy Chen</h3>
+			<div class="text-secondary fs-7">andy0401@mail.com</div>
+		</div>
+	</div>
+</aside>

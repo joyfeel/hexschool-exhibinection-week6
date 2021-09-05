@@ -1,0 +1,38 @@
+.timeline__section {
+	position: relative;
+
+	&:after {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		height: 2px;
+		background-color: $primary;
+	}
+}
+
+.timeline__pointer {
+	position: relative;
+	display: flex;
+	justify-content: center;
+
+	&:before {
+		content: '';
+		position: absolute;
+		left: 50%;
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		transform: translate(-50%, -25%);
+		background-color: white;
+		border: 1px solid $primary;
+		z-index: 1;
+	}
+
+	&--active {
+		&:before {
+			background-color: $primary;
+			z-index: 100;
+		}
+	}
+}
